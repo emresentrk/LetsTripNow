@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Giriş Yap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="bg-grey">
+    <div id="panel" class="bg-avantaj">
+        <div class="borderless">
+            <h1 class="fontyeni">Login</h1>
+            <form>
+                <input type="text" placeholder="Acente Adı / Müşteri Numarası"><br>
+                <input type="email" placeholder="Email"><br>
+                <input type="password" placeholder="Password">
+            </form>
+            <button  class="btn-acenteGiris" onclick="alert('Giriş Yapıldı')">Login</button>
+
+            <p class="fontyeni">Don’t have an account? <b><a href="@Url.Action("Iletisim","Home")">Sign up</a></b></p>
+        </div>
+    </div>
+</div>

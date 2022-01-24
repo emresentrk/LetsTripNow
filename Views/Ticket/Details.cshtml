@@ -1,0 +1,139 @@
+﻿@model Let_sTripNow.Models.FlightSearch
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>FlightSearch</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Flight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Flight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Airlines)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Airlines)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Seat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Seat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Available)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Available)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Departure)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Departure)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Landing)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Landing)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date_of_departure)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_of_departure)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date_of_return)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_of_return)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Economy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Economy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Business)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Business)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nonstop)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nonstop)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cancelable)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cancelable)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

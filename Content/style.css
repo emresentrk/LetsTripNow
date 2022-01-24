@@ -1,0 +1,208 @@
+.fontyeni {
+    font-family: 'Caveat', cursive;
+}
+
+.golge {
+    border: 2px solid black;
+}
+
+.golgelendirme {
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.font-mavi {
+    color: #0088D3;
+}
+
+.font-lacivert {
+    color:#003371 !important;
+}
+
+.bg-mavi-duyuru {
+    background-color: #8AC2E6;
+    color: #22273B !important;
+}
+
+.bg-mavi {
+    background-color: #0088D3;
+    color: white;
+}
+.bg-mavi-koyu {
+    background-color: #4563CD;
+    color: white;
+}
+
+.bg-mercan{
+    background-color: #FC9C97;
+    color: white;
+    letter-spacing: 3.05px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+
+.bg-siyah {
+    background-color: rgb(0, 0, 0);
+}
+
+.bg-grey {
+    background-color: #F4F4F4;
+}
+
+.ayristirici-mavi {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #0088D3;
+}
+
+.bg-slider {
+    background-image: url('img/Slider-small.png');
+    background-size: contain;
+}
+
+.bg-avantaj {
+    background-color: #0387d2 !important;
+}
+
+.btn-acenteGiris {
+    color: white;
+    background-color: #44B3AC;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.btn-acenteGiris:hover, .btn-acenteGiris:focus, .btn-acenteGiris:active, .btn-acenteGiris.active, .open > .dropdown-toggle.btn-acenteGiris {
+    color: #fff;
+    background-color: #388e89;
+}
+
+.btn-yeniAcente {
+    color: #44B3AC;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.btn-yeniAcente:hover, .btn-yeniAcente:focus, .btn-yeniAcente:active, .btn-yeniAcente.active, .open > .dropdown-toggle.btn-yeniAcente {
+    color: #44B3AC;
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+h4{
+    color:#002450;
+}
+
+.borderless {
+    border: 0 none;
+    background-color: transparent !important;
+    color: white;
+    padding: 4px;
+}
+
+.form-group input{
+    box-shadow: 0px 0px 6px #00000029;
+    padding: 1.4em .75rem;
+}
+
+form button{
+    box-shadow: 0px 0px 15px #0000003D;
+}
+
+.no-hover:hover {
+    text-decoration: none;
+}
+
+
+@media (min-width: 767.98px) { 
+    .bg-avantaj {
+        height: 30rem;
+        background-image: url('img/travel-banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bg-slider {
+        width: 100%;
+        height: 490px;
+        background-image: url('img/sileder2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+ * {
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+#panel {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 0;
+}
+
+#panel h1 {
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin: top 5px;
+    border: none;
+    background-color: none;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+input:focus {
+    outline: 0;
+    width: 60%;
+    transition: 1s;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button {
+    margin: auto;
+    width: 50px;
+    height: 40px;
+    display: block;
+    margin-top: 15px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+} 
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+    border: 1px black;
+}
+
+#panel p {
+    color: whitesmoke;
+    font-size: 16px;
+    text-align: center;
+}
+
+#panel a {
+    color: whitesmoke;
+    text-decoration: underline;
+}
